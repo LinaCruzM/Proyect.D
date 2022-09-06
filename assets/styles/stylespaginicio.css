@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    width: 100%;
+    height: 600px;
+}
+
+.s1{
+    width: fit-content;
+    height: 700px;
+    display: inline-block;
+}
+
+.p1{
+    width: 460px;
+    height: fit-content;
+    margin-inline-start: 150px;
+    margin-inline-end: 0px;
+    margin-top: 250px;
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Playfair Display';
+}
+
+.p2{
+    width: fit-content;
+    height: fit-content;
+    margin-inline-start: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+
+.boton{
+    margin-top: 35px;
+}
+
+.estiloBoton{
+    width: fit-content; 
+    font-weight: 10px;
+    margin-inline-start: 270px;
+    height: 10px;
+    background-color:#3A9164;
+    border-radius: 80px;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    color: black;
+    padding:  15px 30px ;
+}
+ 
+.s2{
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+}
+
+.publicidad{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    margin: 0 20 px 0 20px;
+    background-color: #8b9892;
+}
+
+.imagInicio{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.publicidad{
+    border: 2px solid black;
+    background-color: grey;
+    height: 150px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+.subtitulo{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    width: 90%;
+    height: fit-content;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 black;
+    float: left;
+    width: 250px;
+    margin-left: 60px;
+    margin-inline-end: 5px;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+    background-color: #3A9164;
+}
+
+.imagenCategoria{
+    width: 250px;
+    height: 250px;
+}
+
+.pie{
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.pFinal{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 400px;
+    margin-bottom: 100px;
+}

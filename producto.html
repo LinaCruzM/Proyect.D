@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/kvm3ivy.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/stylesproducto.css">
+    <title>Producto</title>
+</head>
+<body>
+    <header class="header ">
+        <div class="container logo-nav.container">
+            <div >
+                <a href="" class="logo">LOGO</a>
+                <a href="" id="project">Project.d</a>
+            </div>
+            <div class="browser-nav">
+                <input type="search" id="buscar"> <button id="lupa"><img src="./assets/image/lupa.png" width="15px" height="15px"></button>
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a href=""><img src="./assets/image/carrito-de-compras.png" width="25px" height="25px"></a></li>
+                        <li class="nav-menu-item"><a href=""><img src="./assets/image/chat-de-burbujas.png" width="25px" height="25px"></a></li>
+                        <li class="nav-menu-item"><a href=""><img src="./assets/image/usuario.png" width="25px" height="25px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> 
+    <main>  
+        <section class="añadir">
+            <div class="box">
+                <img src="./assets/image/Imagen2.JPG">
+            </div>
+            <div class="infoCarrito">
+                <button id="añadirCarrito">Añadir a carrito <img class="imagenCarrito" src="./assets/image/carrito-de-compras.png" width="25" height="25"></button>
+                <h4>Producto</h4>
+                <h2 class="subtitulo">Precio $</h2>
+                <form id="dataform" method="post" action="">
+                    <label class="labelTalla" for="size">Talla </label>
+                    <select name="size" id="size">
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select><br>
+                    <label class="labelColor" for="color">Color </label>
+                    <select name="color" id="color">
+                        <option value="azul">Azul</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="verde">Verde</option>
+                        <option value="negro">Negro</option>
+                        <option value="cafe">Café</option>
+                        <option value="amarillo">Amarillo</option>
+                    </select><br>
+                    <label class="labelCantidad" for="cant">Cantidad</label>
+                    <input type="number" id="cant" name="cant" min="1"max="20" tabindex="1"><br><br><br>
+                    <button id="buy">Comprar</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2 class="subtitulo2">Detallles del producto</h2>
+            <p class="parrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, voluptatem illum assumenda officiis minima itaque, dicta quidem fuga nobis asperiores maiores sequi, qui in omnis debitis voluptate aperiam ea dolor!</p>
+        </section>
+        <aside>
+            <p class="publicidad">publicidad</p>
+        </aside>
+        <h3 class="subtitulo3">Acerca del vendedor</h3>
+        <div class="info">
+            <div class="ratings">
+                <p class="puntaje">4.9</p>
+                <img class="estrellas" src="./assets/image/4-estrellas.png">
+                <p class="parrafo2">400.000<br>
+                reseñas</p>
+            </div>
+            <div class="infoUsuario">
+                <img class="imagenInfo" src="./assets/image/usuario.png">
+            </div>
+            <div class="infoVendedor">
+            <p class="parrafo3">Nombre <br>Número de contacto <br>Correo electrónico <br>Ventas realizadas: 100</p>
+            </div>
+        </div>
+        <h3 class="subtitulo4">Comentarios   1</h3>
+        <div class="fotoPerfil">
+            <img class="fotousuario1" src="./assets/image/usuario.png">
+        </div>
+        <div class="usuarios">
+            <p class="usuarioNom">Nombre usuario</p>
+            <p class="parrafo4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae sapiente placeat dolorem animi harum odit nesciunt ad doloribus temporibus ut aperiam velit reiciendis amet corporis, quo ducimus suscipit unde.</p>
+        </div>
+        <div class="comentario">
+            <img class="fotoPerfil2" src="./assets/image/usuario.png">
+        </div> 
+        <div class="miComentario">
+            <input type="text" placeholder="Añade un comentario...">
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <h3>Contáctanos</h3>
+            <img  class="imagenfooter1" src="./assets/image/telefono.png">
+            <a href="" id="contact">Número télefonico</a><br>
+            <img class="imagenfooter2" src="./assets/image/correo.png">
+            <a href="" id="contact">Correo electrónico</a>
+        </div>
+        <div>
+            <a href="" class="logo1">LOGO</a><br>
+            <div class="imgP">
+                <img class="letrac" src="./assets/image/letra-c.png">2022 Project.D
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

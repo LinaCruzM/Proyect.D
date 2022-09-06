@@ -1,0 +1,271 @@
+body{
+    font-family: playfair-display,serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.añadir{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 150px;
+}
+
+.infoCarrito{
+    width: 650px;
+    height: 400px;
+}
+
+#añadirCarrito{
+    margin-top: 10px;
+    background-color: #3a9164;
+    border-radius: 15px;
+    width: 200px; 
+    height: fit-content;
+    text-align: center;
+    font-size: medium;
+}
+
+h4{
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.subtitulo{
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: left;
+}
+
+#dataform{
+    color: #daeae2;
+    width: fit-content;
+    height: 205px;
+    margin-top: 0ch;
+}
+
+.labelTalla{
+    margin-top: 10px;
+    color: #030303;
+    padding: 5px 70px 5px 70px;
+    text-align: right;
+    font-size: large;
+}
+
+#size{
+    text-align: center;
+    background-color: #e4e5e4;
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.labelColor{
+    margin-top: 60px;
+    color: #030303;
+    padding: 5px 70px 5px 70px;
+    text-align: right;
+    font-size: large;  
+}
+
+#color{
+    text-align: center;
+    background-color: #e4e5e4;
+    width: 200px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.labelCantidad{
+    margin-top: 80px;
+    color: #030303;
+    padding: 5px 67px 5px 50px;
+    text-align: right;
+    font-size: large;
+}
+
+#cant{
+    text-align: center;
+    background-color: #e4e5e4;
+    width: 190px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+#buy{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+.subtitulo2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.parrafo1{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.publicidad{
+    display: grid;
+    border: 2px solid #030303;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    margin: 0 20px 0 20px;
+    background-color: #8b9892;
+}
+
+.subtitulo3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 0%;
+}
+
+.info{
+    margin-top: 5px;
+    height: 400px;
+}
+
+.ratings{
+    margin-left: 80px;
+    width: 30%;
+    height: max-content;
+    display: inline-block;
+}
+
+.puntaje{
+    font-size:100px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.estrellas{
+    width: 361px;
+    height: 80px;
+    margin-top:0;
+}
+
+.parrafo2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.infoUsuario{
+    margin-top: 100px;
+    margin-left: 115px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+}
+
+.imagenInfo{
+    background-color: #3a9164;
+    width:230px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.infoVendedor{
+    width: 400px;
+    height: 250px;
+    margin-top: 0%;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.subtitulo4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 0%;
+}
+
+.fotoPerfil{
+    margin-top: 45px;
+    margin-left: 180px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+}
+
+.fotousuario1{
+    width: 100px;
+    height: 100px;
+    background-color: #3a9164;
+    border-radius: 50px;
+    border: 2px solid black;
+    
+}
+
+.usuarios{
+    margin-left: 15px;
+    display: inline-block;
+    width: 70%;
+    height: fit-content;
+}
+
+.usuarioNom{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.parrafo4{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.comentario{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 320px;
+}
+
+.fotoPerfil2{
+    width: 60px;
+    height: 60px;
+    background-color: #3a9164;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.miComentario{
+    margin-top: 20px;
+    width: 650px;
+    height: 50px;
+    display: inline-block;
+    
+}
+
+.añadirCom{
+    margin-top: 25px;
+    width: 600px;
+    height: 30px;
+    margin-bottom: 0;
+}
